@@ -29,6 +29,8 @@ A couple things to note here:
 2. If you want to change the type of collider, or what GameObject it's located on, make sure to change the `FixColliders` animation on the `World Physics` animator. 
 3. The collider CANNOT be on by default.
 4. DO NOT change the name of any of the GameObjects in the prefab. Only the `Container` GameObject should have any GameObjects added as children.
+5. The collider on the joint will act as a collider for your avatar. I have no idea why it does this, and no idea how to fix it.
+6. The collision on the rigidbody is discrete, so it may phase through things. It doesn't usually pose an issue but on thing surfaces it does. You can change the collision type, but it will cause lag. The Unity manual isn't lying when it says the other collision types have a performance hit. Even if there is just one.
    
 Essentially, you must follow the constraints detailed in [this](https://github.com/VRLabs/VRChat-Avatars-3.0#world-physics) prefab.
 
