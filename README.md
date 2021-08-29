@@ -34,6 +34,10 @@ A couple things to note here:
    
 Essentially, you must follow the constraints detailed in [this](https://github.com/VRLabs/VRChat-Avatars-3.0#world-physics) prefab.
 
+# Demonstration
+[Video of Throw Joint](https://mk22.booth.pm/items/2953001)
+*The avatar in the video is a highly modified [Sephira](https://mk22.booth.pm/items/2953001) also the ball in the video is not included
+
 # Contact
 
 Please direct any questions you may have to the issues page on this Github, or if you cant make an issue for some reason, my Discord, `loukylor#0001`.<br>
