@@ -6,6 +6,8 @@ A throw joint for avatars 3.0 that uses rigidbody physics instead of particle ph
 
 Basically, It's just the [World Physics](https://github.com/VRLabs/VRChat-Avatars-3.0#world-physics) prefab from VRLabs, that I slapped a spring joint with a parent constraint onto.<br>
 
+Swap the joint between hands by pointing on the respective hand, and throw it point not pointing on both hands.
+
 That's essentially it. 
 
 If you want to go into the nitty gritty, I set up a rigidbody with a parent constraint, that constrains it to the `ThrowJointRightTarget` and `ThrowJointLeftTarget`.<br>
